@@ -14,6 +14,7 @@ Tried ARIMA for forecasting stunting rates, shifted to Bayesian due to data irre
 
 ## Outcome
 The Bayesian model revealed that if inflation increases by 1 standard deviation, stunting increases by ~1 percentage point. The chart below shows what the Nigeria under-5 stunting rate will be if based on inflation rates.
+https://github.com/Ayajo-31/stunting-rate-forecast/blob/main/forecast_stunting_rate_2028_vs_inflation_rate.png 
 
 ## Next Steps
 - Explore machine learning alternatives
