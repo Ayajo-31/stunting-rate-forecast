@@ -25,6 +25,9 @@ The Bayesian model revealed that if inflation increases by 1 standard deviation,
 
 [Click here to view the raw notebook](https://github.com/Ayajo-31/stunting-rate-forecast/blob/main/Bayesian_Timeseries_for_Analysis.ipynb)
 ⚠️ Note: GitHub notebook rendering has issues due to widget metadata. For now, open the raw file or upload to Google Colab.
+** OR **
+🔗 **[Click here to view the full notebook via NBViewer](https://nbviewer.org/github/Ayajo-31/stunting-rate-forecast/blob/main/Bayesian_Timeseries_for_Analysis.ipynb)**
+
 
 ## Next Steps
 - Explore machine learning alternatives
