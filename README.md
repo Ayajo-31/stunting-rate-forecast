@@ -6,16 +6,15 @@ Malnutrition persists as a major public health challenge in Nigeria, and it play
 ## Goal
 Build a time series forecasting model (ARIMA/Bayesian) to predict stunting prevalence among under-5 children and the influence of inflation on future stunting rates.
 
-### Data Source
+## Data Source
 NDHS (2003, 2008, 2013, 2023) and Statista, and worlddata. (https://www.statista.com/statistics/383132/inflation-rate-in-nigeria/) (https://www.worlddata.info/africa/nigeria/inflation-rates.php)
 
-### Method
+## Method
 Tried ARIMA for forecasting stunting rates, shifted to Bayesian due to data irregularity.
 
-### Outcome
+## Outcome
 The Bayesian model revealed that if inflation increases by 1 standard deviation, stunting increases by ~1 percentage point. The chart below shows what the Nigeria under-5 stunting rate will be if based on inflation rates.
 
-
-### Next Steps
+## Next Steps
 - Explore machine learning alternatives
 - Explore wasting rates
