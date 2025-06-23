@@ -7,14 +7,24 @@ Malnutrition persists as a major public health challenge in Nigeria, and it play
 Build a time series forecasting model (ARIMA/Bayesian) to predict stunting prevalence among under-5 children and the influence of inflation on future stunting rates.
 
 ## Data Source
-NDHS (2003, 2008, 2013, 2023) and Statista, and worlddata. (https://www.statista.com/statistics/383132/inflation-rate-in-nigeria/) (https://www.worlddata.info/africa/nigeria/inflation-rates.php)
+NDHS (2003, 2008, 2013, 2023) and Statista, and worlddata. ![Click here for inflation data sources](https://www.statista.com/statistics/383132/inflation-rate-in-nigeria/) [](https://www.worlddata.info/africa/nigeria/inflation-rates.php)
 
 ## Method
 Tried ARIMA for forecasting stunting rates, shifted to Bayesian due to data irregularity.
 
+### Project Steps
+1. I got stunting rates using NDHS reports, and inflation rates using Statista and WorldData reports.
+2. Prepared and scaled the Data.
+3. Built the Bayesian Regression Model and checked Posterior Results, which revealed the model fitted properly (suitable for small data, fixing the problem I had with the ARIMA models).
+5. Switched to Bayesian time series (PyMC) modeling.
+6. Predicted future stunting based on projected inflation.
+
 ## Outcome
 The Bayesian model revealed that if inflation increases by 1 standard deviation, stunting increases by ~1 percentage point. The chart below shows what the Nigeria under-5 stunting rate will be if based on inflation rates.
-https://github.com/Ayajo-31/stunting-rate-forecast/blob/main/forecast_stunting_rate_2028_vs_inflation_rate.png 
+![Stunting Forecast](https://github.com/Ayajo-31/stunting-rate-forecast/blob/main/forecast_stunting_rate_2028_vs_inflation_rate.png)
+
+[Click here to view the raw notebook](https://github.com/Ayajo-31/stunting-rate-forecast/blob/main/Bayesian_Timeseries_for_Analysis.ipynb)
+⚠️ Note: GitHub notebook rendering has issues due to widget metadata. For now, open the raw file or upload to Google Colab.
 
 ## Next Steps
 - Explore machine learning alternatives
